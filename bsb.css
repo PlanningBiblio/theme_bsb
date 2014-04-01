@@ -1,0 +1,249 @@
+/*
+Planning Biblio, Version 1.7.8
+Licence GNU/GPL (version 2 et au dela)
+Voir les fichiers README.txt et COPYING.txt
+Copyright (C) 2011-2014 - Jérôme Combes
+
+Fichier : themes/bsb/bsb.css
+Création : 4 octobre 2013
+Dernière modification : 1er avril 2014
+Auteur : Jérôme Combes, jerome@planningbilbio.fr
+
+Description :
+Feuille de style personnalisée pour la BSB
+
+Incluse dans les fichiers include/header.php, setup/header.php et include/calendrier.php
+*/
+
+#logo {
+  left: 12px;
+  width:180px;
+  height:41px;
+  background:url("img/logo180.png") no-repeat right top;
+}
+
+#auth-logo {
+  width:200px;
+  height:45px;
+  background:url("img/logo200.png") no-repeat right top;
+}
+
+body{
+  background:url("img/bg_menu.gif") repeat-x top;
+}
+
+.calendar_body{
+  background:none;
+}
+
+body,a,a:hover,input,select,textarea,button,#auth, #auth input,#onglets #titre,#onglets a,
+.menu2, .right,.titreSemFixe{
+  color:#7C1172;
+}
+
+#ferie,.ferie, .menuRed, a:hover.menuRed, a:hover.menu, .important, #messages_infos {
+  color: #96BF0D;
+}
+
+.cellule_grise,.tr1 {
+  background:#F4F9E7;
+}
+
+td.menu_td:hover,td.menu_td2:hover,.th {
+  background:#96BF0D;
+}
+
+.infobulle{
+  background: #7C1172;
+}
+
+.tr_horaires, .tr_separation{
+  background: #96BF0D;
+  color:#7C1172;
+}
+
+#tabsemaine1 td{
+  border-color: #000000;
+}
+
+#onglets ul {
+  top:-11px;
+}
+
+#onglets li {
+  background:url("img/norm_right.gif") no-repeat right top;
+}
+
+#onglets a {
+  background:url("img/norm_left.gif") no-repeat left top;
+}
+
+#onglets #current {
+  background-image:url("img/norm_right_on.gif");
+}
+
+#onglets #current a {
+  background-image:url("img/norm_left_on.gif");
+}
+
+#onglets {
+  background:#DAE0D2 url("img/bgOnglet.gif") repeat-x bottom;
+}
+
+#onglets a {
+  background:url("img/norm_left.gif") no-repeat left top;
+}
+
+#onglets #current a {
+  background-image:url("img/norm_left_on.gif");
+}
+
+#onglets li {
+  background:url("img/norm_right.gif") no-repeat right top;
+}
+
+#onglets a {
+  background:url("img/norm_left.gif") no-repeat left top;
+}
+
+#onglets li {
+  background:url("img/norm_left.gif") no-repeat left top;
+}
+
+#onglets a, #onglets strong, #onglets span {
+  background:url("img/norm_right.gif") no-repeat right top;
+}
+
+#onglets #current {
+  background-image:url("img/norm_left_on.gif");
+}
+
+#onglets #current a {
+  background-image:url("img/norm_right_on.gif");
+}
+
+#onglets a {
+  background:url("img/norm_right.gif") no-repeat right top;
+}
+
+#onglets a {
+  background:url("img/norm_right.gif") no-repeat right top;
+}
+
+#tabsemaine1 tr{
+  height: 42px;
+}
+
+#tabsemaine1 td{
+  height: 100%;
+}
+
+.td_horaires {
+  width:190px;
+  max-width:190px;
+  min-width:190px;
+}
+
+.td_postes {
+  width: 130px;
+  max-width: 130px;
+  min-width: 130px;
+  color:#7C1172;
+  font-size:12pt;
+  font-weight: bold;
+}
+
+.td_obligatoire{
+  background:#D5E59E;
+}
+
+.td_renfort{
+  background:#D5E59E;
+}
+
+
+/*	Cellules et Statuts	*/
+/* class cellule = cellule par défaut */
+/* statut_xxx	 = complète le style de la classe cellule en fonction du statut */
+.statut_moniteur, .service_moniteur{
+  background:#FFF69F;
+  font-style:italic;
+  font-size:12pt;
+}
+
+.statut_permanent, .service_permanent{
+  background:#FFFFFF;
+  font-weight:bold;
+  font-size:12pt;
+}
+
+/* JQuery UI */
+/*
+.ui-widget-header {
+  background: #7C1172 url(images/ui-bg_glass_25_cb842e_1x400.png) 50% 50% repeat-x;
+  color:#96BF0D;
+}
+*/
+
+/* Calendrier */
+.calendar_title,.calendar_title_month_clickable, .calendar_title_left_arrow_clickable, .calendar_title_right_arrow_clickable, 
+.calendar_table td, .calendar_table td, .calendar_day_clickable, .calendar_weekend_day_clickable, 
+.calendar_cell_footer_current_month_clickable, .calendar_footer_current_month_clickable, 
+.calendar_cell_footer_other_month_clickable, .calendar_footer_other_month_clickable{
+  color:#7C1172;
+}
+
+.calendar_table th {
+  background-color: #96BF0D;
+  border: 1px solid #7C1172;
+  color: #7C1172;
+}
+
+.calendar_cell_weekend_today {
+  background-color: #96BF0D;
+}
+
+.calendar_cell_weekend_day, .calendar_cell_weekend_day_clickable {
+  background-color: #D5E59E;
+}
+
+.calendar_cell_weekend_other_month, .calendar_cell_weekend_other_month_clickable {
+  background-color: #F4F9E7;
+}
+
+/*	DataTables */
+.dataTable tbody tr.odd {
+  background-color:#F4F9E7;
+}
+
+.dataTable tbody tr.odd td.sorting_1,
+.dataTable tbody tr.odd td.sorting_2,
+.dataTable tbody tr.odd td.sorting_3{
+  background-color:#EAF7CA;
+}
+
+.dataTable tbody tr.even td.sorting_1,
+.dataTable tbody tr.even td.sorting_2,
+.dataTable tbody tr.even td.sorting_3{
+  background-color:#FAFDF3;
+}
+
+@media print{
+  body, .tabsemaine1{
+    margin : 0;
+  }
+
+  #planning{
+	bottom:45mm;
+  }
+
+  .td_postes, .td_obligatoire, .td_renfort, .cellule, .statut_permanent, .service_permanent, .tr_horaires, .tr_separation{
+    font-size:8pt;
+    padding:0;
+  }
+
+  #date_planning{
+    color:#7C1172;
+  }
+
+}
