@@ -1,12 +1,12 @@
 /*
-Planning Biblio, Version 1.8.1
+Planning Biblio, Version 1.8.2
 Licence GNU/GPL (version 2 et au dela)
 Voir les fichiers README.txt et COPYING.txt
 Copyright (C) 2011-2014 - Jérôme Combes
 
 Fichier : themes/bsb/bsb.css
 Création : 4 octobre 2013
-Dernière modification : 13 juin 2014
+Dernière modification : 25 juin 2014
 Auteur : Jérôme Combes, jerome@planningbilbio.fr
 
 Description :
@@ -36,8 +36,7 @@ body{
   background:none;
 }
 
-body,a,a:hover,input,select,textarea,button,#auth, #auth input,#onglets #titre,#onglets a,
-.menu2, .right,.titreSemFixe{
+body,a,a:hover,input,select,textarea,button,#auth, #auth input, .menu2, .right,.titreSemFixe{
   color:#7C1172;
 }
 
@@ -64,70 +63,6 @@ td.menu_td:hover,td.menu_td2:hover,.th {
 
 #tabsemaine1 td{
   border-color: #000000;
-}
-
-#onglets ul {
-  top:-11px;
-}
-
-#onglets li {
-  background:url("images/norm_right.gif") no-repeat right top;
-}
-
-#onglets a {
-  background:url("images/norm_left.gif") no-repeat left top;
-}
-
-#onglets #current {
-  background-image:url("images/norm_right_on.gif");
-}
-
-#onglets #current a {
-  background-image:url("images/norm_left_on.gif");
-}
-
-#onglets {
-  background:#DAE0D2 url("images/bgOnglet.gif") repeat-x bottom;
-}
-
-#onglets a {
-  background:url("images/norm_left.gif") no-repeat left top;
-}
-
-#onglets #current a {
-  background-image:url("images/norm_left_on.gif");
-}
-
-#onglets li {
-  background:url("images/norm_right.gif") no-repeat right top;
-}
-
-#onglets a {
-  background:url("images/norm_left.gif") no-repeat left top;
-}
-
-#onglets li {
-  background:url("images/norm_left.gif") no-repeat left top;
-}
-
-#onglets a, #onglets strong, #onglets span {
-  background:url("images/norm_right.gif") no-repeat right top;
-}
-
-#onglets #current {
-  background-image:url("images/norm_left_on.gif");
-}
-
-#onglets #current a {
-  background-image:url("images/norm_right_on.gif");
-}
-
-#onglets a {
-  background:url("images/norm_right.gif") no-repeat right top;
-}
-
-#onglets a {
-  background:url("images/norm_right.gif") no-repeat right top;
 }
 
 #tabsemaine1 tr{
