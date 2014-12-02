@@ -1,12 +1,12 @@
 /*
-Planning Biblio, Version 1.8.2
+Planning Biblio, Version 1.8.6
 Licence GNU/GPL (version 2 et au dela)
 Voir les fichiers README.txt et COPYING.txt
 Copyright (C) 2011-2014 - Jérôme Combes
 
 Fichier : themes/bsb/bsb.css
 Création : 4 octobre 2013
-Dernière modification : 25 juin 2014
+Dernière modification : 2 décembre 2014
 Auteur : Jérôme Combes, jerome@planningbilbio.fr
 
 Description :
@@ -30,10 +30,6 @@ Incluse dans les fichiers include/header.php et setup/header.php
 
 body{
   background:url("images/bg_menu.gif") repeat-x top;
-}
-
-.calendar_body{
-  background:none;
 }
 
 body,a,a:hover,input,select,textarea,button,#auth, #auth input, .menu2, .right,.titreSemFixe{
@@ -66,7 +62,7 @@ td.menu_td:hover,td.menu_td2:hover,.th {
 }
 
 #tabsemaine1 tr{
-  height: 42px;
+  min-height: 42px;
 }
 
 #tabsemaine1 td{
