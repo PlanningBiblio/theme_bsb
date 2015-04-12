@@ -1,12 +1,12 @@
 /*
-Planning Biblio, Version 1.8.6
+Planning Biblio, Version 1.9.5
 Licence GNU/GPL (version 2 et au dela)
 Voir les fichiers README.txt et COPYING.txt
-Copyright (C) 2011-2014 - Jérôme Combes
+Copyright (C) 2011-2015 - Jérôme Combes
 
 Fichier : themes/bsb/bsb.css
 Création : 4 octobre 2013
-Dernière modification : 2 décembre 2014
+Dernière modification : 13 avril 2015
 Auteur : Jérôme Combes, jerome@planningbilbio.fr
 
 Description :
@@ -41,15 +41,11 @@ body,a,a:hover,input,select,textarea,button,#auth, #auth input, .menu2, .right,.
 }
 
 .cellule_grise,.tr1 {
-  background:#F4F9E7;
+  background:#E2F9D5;
 }
 
 td.menu_td:hover,td.menu_td2:hover,.th {
   background:#96BF0D;
-}
-
-.infobulle{
-  background: #7C1172;
 }
 
 .tr_horaires, .tr_separation{
