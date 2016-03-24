@@ -1,13 +1,13 @@
 /*
-Planning Biblio, Version 1.9.5
+Planning Biblio, Version 2.3
 Licence GNU/GPL (version 2 et au dela)
 Voir les fichiers README.txt et COPYING.txt
-Copyright (C) 2011-2015 - Jérôme Combes
+@copyright 2011-2016 Jérôme Combes
 
 Fichier : themes/bsb/bsb.css
 Création : 4 octobre 2013
-Dernière modification : 13 avril 2015
-Auteur : Jérôme Combes, jerome@planningbilbio.fr
+Dernière modification : 24 mars 2016
+@author Jérôme Combes <jerome@planningbiblio.fr>
 
 Description :
 Feuille de style personnalisée pour la BSB
@@ -44,8 +44,15 @@ body,a,a:hover,input,select,textarea,button,#auth, #auth input, .menu2, .right,.
   background:#E2F9D5;
 }
 
-td.menu_td:hover,td.menu_td2:hover,.th {
+td.menu_td2:hover,.th {
   background:#96BF0D;
+}
+
+li.menu_li:hover {
+  background: url("images/bg_li.png") repeat right top;
+  border-radius: 10px 10px 10px O;
+  -webkit-border-radius: 10px 10px 10px 0;
+
 }
 
 .tr_horaires, .tr_separation{
