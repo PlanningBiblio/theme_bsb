@@ -95,6 +95,10 @@ li.menu_li:hover {
   background:#D5E59E;
 }
 
+.tr_espace {
+  display: block;
+  height:10px;
+}
 
 /*	Cellules et Statuts	*/
 /* class cellule = cellule par défaut */
